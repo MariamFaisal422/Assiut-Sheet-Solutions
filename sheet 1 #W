@@ -1,0 +1,38 @@
+
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    int a, b;
+    long long int c;
+    long long int e;
+    char s;
+    char equal = '=';
+ 
+    cin >> a >> s >> b >> equal >> c;
+ 
+    switch (s)
+    {
+    case ('+'):
+        e = a + b;
+        break;
+    case ('-'):
+        e = a - b;
+        break;
+    case ('*'):
+        e = a * b;
+        break;
+    default:
+        break;
+    }
+    if (e == c)
+    {
+        cout << "Yes";
+    }
+    else
+    {
+        cout << e;
+    }
+    return 0;
+}
