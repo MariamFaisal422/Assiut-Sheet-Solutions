@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+ long long int total_age ;
+ int years ;
+ int months ;
+ int days ;
+ cin >> total_age ;
+ 
+ years = total_age / 365 ;
+ months = ( total_age - (years*365) ) / 30 ;
+ days = total_age - ( (years*365)+(months*30) ) ; 
+ 
+cout << years << " years" << endl ;
+cout << months << " months" << endl ;
+cout << days << " days" << endl ;
+ 
+ 
+ return 0 ;   
+}
