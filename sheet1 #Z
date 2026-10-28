@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+ 
+int main()
+{
+    int a, c;
+    long long int b, d;
+ 
+    cin >> a >> b >> c >> d;
+    if (b * log(a) > d * log(c))
+    {
+        cout << "YES" << endl;
+    }
+    else if (b * log(a) <= d * log(c))
+    {
+        cout << "NO" << endl;
+    }
+ 
+    return 0;
+}
