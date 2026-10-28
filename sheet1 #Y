@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std ;
+int main()
+{
+    long long int A , B ,C ,D ;
+    long long int mult1 , mult2 , mult ,result ;
+    cin >> A >> B >> C >> D ;
+    mult1 = (A*B)%100 ;
+    mult2 = (C*D)%100 ;
+    mult = mult1 * mult2 ;
+    result = mult%100 ;
+    
+    if (result<10)
+    {
+        cout << '0' << result ;
+    }
+    else
+    {
+        cout << result ;
+    }
+    return 0 ;
+}
