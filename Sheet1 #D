@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+	long long int A,B,C,D;
+	long long int Difference ;
+	cin >> A >> B >> C >> D ;
+	Difference = (A * B)-(C * D);
+	cout << "Difference = " << Difference ;
+     
+	return 0;	 
+}
