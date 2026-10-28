@@ -1,0 +1,15 @@
+#include<iostream>
+#include<cmath>
+#include<iomanip>
+using namespace std ;
+ 
+int main()
+{
+	double R ;
+	const double pi = 3.141592653 ;
+    double area;
+	cin >> R ;
+	area = ( R * R * pi );
+	cout << fixed << setprecision(9) << area ;
+		
+}
